@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Codo a Codo integrador 1</title>
+</head>
+<body>
+    <!-- NAVBAR FROM BOOTSTAP -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container-lg">
+                <!-- <a class-"navbar-brand" href-"#*›Conf Bs As‹/a> -->
+                <span><img src="./codoacodo.png" alt="Logo CaC"></span>
+                <h1 class="navbar-brand-h1 me-auto">Conf Bs As</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" href="#" aria-current="page" href="#">La conferencia</a>
+                        <a class="nav-link" href="#speakers">Los oradores</a>
+                        <a class="nav-link" href="#">El lugar y la fecha</a>
+                        <a class="nav-link" href="#form">Conviertete en orador</a>
+                        <a class="nav-1ink" href="#">Comprar tickets</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--showcase-->
+
+        <section class="showcase">
+            <div class="shadow">
+                <div class="container-flex">
+                    <div class="content">
+                        <h1>Conf Bs As</h1>
+                        <p>Bs As llega por primera vez a Argentina. Un eveto para compratir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a
+                            conocer a
+                            miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que
+                            tenemos
+                            para ti. Te esperamos!</p>
+                        <div class="buttonarea">
+                            <a class="btn btn-transparent" href="#">Quiero ser orador</a>
+                            <a class="btn btn-solid" href="#">Comprar tickets</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Speakers-->
+
+        <section class="speakers" id="speakers">
+            <div class="tittle">
+                <h6>CONOCE A LOS</h6>
+                <h2>ORADORES</h2>
+            </div>
+            <div class="container-speakers">
+                <div class="card">
+                    <img src="./steve.jpg" alt="steve Jobs">
+                    <div class="skills">
+                        <h6 class="yellow">JavaScript</h6>
+                        <h6 class="cyan">React</h6>
+                    </div>
+                    <h3>Steve Jobs</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                </div>
+
+                <div class="card">
+                    <img src="./bill.jpg" alt="Bill Gates">
+                    <div class="skills">
+                        <h6 class="yellow">JavaScript</h6>
+                        <h6 class="cyan">React</h6>
+                    </div>
+                    <h3>Bill Gates</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                </div>
+
+                <div class="card">
+                    <img src="./ada.jpeg" alt="Ada Lovelace">
+                    <div class="skills">
+                        <h6 class="gray">Negocios</h6>
+                        <h6 class="magenta">Startups</h6>
+                    </div>
+                    <h3>Ada Lovelace</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CALL TO ACTION-->
+
+        <section class="call-to-action">
+            <div class="container-cta">
+                <img src="./honolulu.jpg" alt="Honolulu">
+                <div class="cta-content">
+                    <h2>Bs As</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    <a href="#" class="btn btn-transparent">Conoce mas</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORM-->
+
+        <section class="form" id="form">
+            <div class="title">
+                <h6>CONVIERTETE EN UN</h6>
+                <h2>ORADOR</h2>
+                <h3>Anotate como orador para dar una <span class="underline">charla ignite.</span>Cuentanos de que quieres hablar</h3>
+            </div>
+            <div class="container-form">
+                <form action="">
+                    <div class="first-last-name">
+                        <input type="text" class="input-name" name="input-firtname" placeholder="Nombre" required>
+                        <input type="text" class="input-name" name="input-lastname" placeholder="Apellido" required>
+                    </div>
+                    <textarea class="input-about" name="input-about" id="" cols="30" rows="6" placeholder="Sobre que quieres hablar" 
+                    required></textarea>
+                    <h6>Recuerda incluir un titulo para tu charla</h6>
+                    <input type="submit" class="btn-submit" value="enviar">
+                </form>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+
+        <footer class="footer">
+            <div class="container-footer">
+                <a class="footer-item" href="#">Preguntas frecuentes</a>
+                <a class="footer-item" href="">Contactanos</a>
+                <a class="footer-item" href="">Prensa</a>
+                <a class="footer-item" href="">Conferencias</a>
+                <a class="footer-item" href="">Terminos y condiciones</a>
+                <a class="footer-item" href="">Privacidad</a>
+                <a class="footer-item" href="">Estudiantes</a>
+            </div>
+        </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
